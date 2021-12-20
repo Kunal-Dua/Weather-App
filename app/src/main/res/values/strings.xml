@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="heading">Weather App</string>
+    <string name="search_icon">search_icon</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="icon_weather">icon_weather</string>
+    <string name="temp_c">temp_c</string>
+    <string name="time">time</string>
+    <string name="wind">wind</string>
+</resources>
