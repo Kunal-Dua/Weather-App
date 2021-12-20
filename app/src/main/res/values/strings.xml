@@ -7,4 +7,5 @@
     <string name="temp_c">temp_c</string>
     <string name="time">time</string>
     <string name="wind">wind</string>
+    <string name="background_img">background_img</string>
 </resources>

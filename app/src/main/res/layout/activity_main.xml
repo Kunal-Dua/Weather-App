@@ -10,6 +10,7 @@
         android:id="@+id/backBK"
         android:layout_width="559dp"
         android:layout_height="1062dp"
+        android:contentDescription="@string/background_img"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
