@@ -2,6 +2,7 @@
 
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cardView"
     android:layout_width="100dp"
     android:layout_height="wrap_content"
@@ -21,9 +22,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/temp_c"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textAlignment="center" />
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
 
         <TextView
             android:id="@+id/time"
@@ -33,7 +35,8 @@
             android:text="@string/time"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20dp" />
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
 
         <ImageView
             android:id="@+id/icon_condition_hr"
@@ -55,8 +58,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/icon_condition_hr"
             android:text="@string/wind"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textAlignment="center" />
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
